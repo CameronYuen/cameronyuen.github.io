@@ -1,0 +1,92 @@
+#headersection {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../DSC_1596.jpg");
+}
+
+.intro {
+	position: absolute;
+	left: 5%;
+	top: 75%;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 450%;
+	color: #FFFFFF;
+}
+
+#Nav ul {
+	list-style-type: none;
+	margin-top: 0%;
+	color: #FFFFFF;
+	margin-left: 8%;
+}
+
+#Nav ul li {
+	width: 70px;
+	display: inline;
+	padding: 2px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #b4c7e9;
+}
+
+#Nav a i {
+ width: 40px;
+ height: 40px;
+ font-size: 20px;
+ vertical-align: middle;
+ line-height: 0px;
+}
+
+
+@media only screen and (max-width: 50em) {
+	body{
+		margin: 0%;
+	}
+
+	#headersection {
+		background-image: none;
+		/* background-color: #b4c7e9; */
+	}
+
+	img {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#pic {
+		vertical-align: bottom;
+	}
+
+	.intro {
+		top: 66%;
+		position: absolute;
+		left: auto;
+		right: auto;
+	}
+
+	 #Name {
+		font-size: 300%;
+		text-align: center;
+	}
+
+	h1, a {
+		color: #81a1da;
+	}
+
+	#Nav a i {
+ 		width: 30px;
+ 		height: 30px;
+ 		font-size: 18px;
+	}
+
+}
